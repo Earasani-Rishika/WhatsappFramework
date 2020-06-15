@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Whatsapp Suite]">
+  <test thread-count="5" name="Whatsapp test(failed)">
+    <classes>
+      <class name="com.Functionalty.Whatsapp">
+        <methods>
+          <include name="tearDown"/>
+          <include name="openWhatsapp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Functionalty.Whatsapp -->
+    </classes>
+  </test> <!-- Whatsapp test(failed) -->
+</suite> <!-- Failed suite [Whatsapp Suite] -->

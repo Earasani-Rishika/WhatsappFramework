@@ -1,0 +1,10 @@
+# Whatsapp Home Page properties
+
+whatsapp.homePage.chat.xpath=//div[@title='New chat']
+whatsapp.homePage.unreadmessagescount.xpath=//div[@class='_210SC']//span[contains(@aria-label,'unread message')]
+whatsapp.homepage.messagesender.xpath=//div[@class='_210SC']//span[contains(@aria-label,'unread message')]/parent::*/preceding::div[5]//span[@dir='auto']
+//div[@class='_210SC']//span[contains(@aria-label,'unread message')]/parent::*/preceding::div[5]//span[@dir='auto']
+whatsapp.homepage.clickthemessage2=//div[@class='_210SC']//span[contains(@aria-label,'unread message')]/parent::*/preceding::div[1]
+whatsapp.homepage.clickthemessage1=//div[@class='_3tBW6']
+whatsapp.homepage.clickthemessage=//div[@class='_210SC']
+whatsapp.homepage.unreadmeassages.xpath=//div[@class='_9WQEN focusable-list-item']//span[contains(text(),'unread message')]/following::*//span[@dir='ltr']/span
